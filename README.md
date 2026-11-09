@@ -9,35 +9,12 @@ Site estático: HTML, CSS e JavaScript. Sem build, sem dependências.
 ## Arquivos
 
 ```
-index.html             gerado por tools/gera-pagina.cjs
-css/estilo.css         estilos
-js/app.js              menu, arcada interativa, formulário
-assets/                logo, imagens de arquivo, compartilhamento
-tools/pagina.html      modelo da página
-tools/gera-arcada.cjs  desenha a arcada em SVG
-tools/gera-pagina.cjs  injeta a arcada e escreve o index.html
-.nojekyll              necessário no GitHub Pages
+index.html        página única
+css/estilo.css    estilos
+js/app.js         menu do celular e formulário
+assets/           logo e imagem de compartilhamento
+.nojekyll         necessário no GitHub Pages
 ```
-
-**Não edite o index.html à mão.** Mexa em `tools/pagina.html` e rode:
-
-```
-node tools/gera-pagina.cjs
-```
-
-## A ideia
-
-> Nesta página, a arcada dentária de onde vem o dente-A da logo
-> vira o modo de escolher o tratamento.
-
-O símbolo da clínica é um dente que forma a letra A. A página o apresenta
-grande, sozinho, no alto. E a seção de tratamentos deixou de ser uma lista
-de dez cartões: virou uma **arcada desenhada em SVG**, onde tocar uma
-região acende os dentes correspondentes e mostra só as especialidades
-daquela parte da boca. São sete regiões, cobrindo as dez especialidades.
-
-Sem JavaScript, as dez aparecem todas em lista. O conteúdo nunca depende
-do script.
 
 ## Identidade
 
@@ -69,30 +46,28 @@ Puxados da API que o template consome
 > A API lista **Clínico geral**, que não aparece na página atual deles.
 > Foi incluída aqui.
 
+## Referência de design
+
+O desenho segue duas referências escolhidas pelo cliente:
+dragisvieiraodonto.com.br e dradanielacavalcante.com.br. Daí vêm o fundo
+claro e quente, a serifa com a segunda linha em itálico no tom de acento,
+as pílulas de ação, o fio fino acima dos itens marcados e a foto
+emoldurada em arco com etiquetas flutuantes.
+
+Seis regras da skill de design foram quebradas de propósito para
+acompanhar essas referências. Estão marcadas no CSS com
+`taste-skill-ignore` e a razão de cada uma.
+
 ## Imagens
 
-A clínica não tem foto nenhuma utilizável. A única imagem do site atual é
-a logo em 200×64. A imagem de fundo do cabeçalho deles está **quebrada no
-próprio servidor** — o S3 responde `NoSuchKey` para
-`whatsappimage20260814at094329_1786711465043.jpeg`. É por isso que a
-página parece vazia.
+A clínica não tem foto utilizável, e a imagem de cabeçalho do site atual
+deles está quebrada no próprio servidor (o S3 responde `NoSuchKey`). O
+site foi desenhado para não depender de foto: onde uma entraria, há um
+**espaço reservado** dizendo qual foto vai ali. São quatro: a moldura em
+arco da capa, a equipe, a recepção e a sala de atendimento.
 
-Então o site foi desenhado para **não depender de foto**: capa escura com
-arte vetorial em ouro, tipografia grande e cartões. Onde uma foto
-melhoraria de verdade, há um **bloco reservado**, com borda tracejada,
-dizendo qual foto entra ali:
-
-1. Capa — recepção ou sala clínica
-2. Equipe de jaleco
-3. Sala de atendimento
-4. Antes e depois
-
-São quatro espaços. Quando as fotos chegarem, entram no lugar e nada mais
-muda na página.
-
-**Não usei banco de imagens.** Foto genérica de sorriso comprado não
-convence paciente e ainda traz risco de licença num repositório público.
-Vale mais mostrar ao cliente o espaço reservado e pedir a foto real.
+Não foi usado banco de imagens: foto genérica não convence paciente e
+traz risco de licença num repositório público.
 
 ## Pendências — resolver com a clínica
 
