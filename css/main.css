@@ -1,0 +1,321 @@
+/* Andrade Odontologia — branco, ouro da logo, areia e grafite.
+   Young Serif + Plus Jakarta Sans. Padrão dos modelos On Track. */
+
+:root{
+  --branco:#FFFFFF;
+  --tinta:#221D16; --tinta-2:#5F584C;
+  --ouro:#B8841C; --ouro-2:#8A6210; --ouro-claro:#E7C87E;
+  --areia:#FAF6EE; --areia-2:#F2EADA;
+  --cinza:#DEDBD5; --cinza-2:#D1CEC7;
+  --grafite:#231E17;
+  --wa:#1FA855; --wa-2:#178944;
+  --linha:#EAE4D8;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+
+*,*::before,*::after{ box-sizing:border-box }
+html{ scroll-behavior:smooth; -webkit-text-size-adjust:100%; overflow-x:clip }
+@media (prefers-reduced-motion:reduce){ html{ scroll-behavior:auto } }
+
+body{
+  margin:0; background:var(--branco); color:var(--tinta-2);
+  font-family:'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size:17px; line-height:1.65; -webkit-font-smoothing:antialiased; overflow-x:clip;
+}
+h1,h2,h3,h4,p,figure,ul,ol{ margin:0 }
+ul,ol{ padding:0; list-style:none }
+a{ color:inherit }
+button,input,textarea{ font:inherit; color:inherit }
+img{ display:block; max-width:100%; height:auto }
+::selection{ background:var(--areia-2); color:var(--tinta) }
+:focus-visible{ outline:3px solid var(--ouro); outline-offset:3px; border-radius:4px }
+main [id]{ scroll-margin-top:84px }
+
+.sprite{ position:absolute; width:0; height:0 }
+svg{ fill:currentColor }
+
+.pular{
+  position:absolute; top:0; left:0; z-index:200;
+  width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap;
+  background:var(--grafite); color:#fff; padding:12px 18px;
+}
+.pular:focus{ width:auto; height:auto; overflow:visible; clip-path:none }
+
+.wrap{ width:100%; max-width:1180px; margin:0 auto; padding-inline:24px }
+.estreito{ max-width:820px }
+@media (max-width:640px){ .wrap{ padding-inline:18px } }
+
+h1{
+  font-family:'Young Serif', Georgia, serif; font-weight:400;
+  font-size:clamp(38px, 5.4vw, 70px); line-height:1.04;
+  color:var(--tinta); text-wrap:balance; letter-spacing:-.01em;
+}
+h2{
+  font-family:'Young Serif', Georgia, serif; font-weight:400;
+  font-size:clamp(28px, 3.6vw, 44px); line-height:1.12;
+  color:var(--tinta); text-wrap:balance;
+}
+h3{ font-family:'Young Serif', Georgia, serif; font-weight:400; font-size:20px; line-height:1.25; color:var(--tinta) }
+h4{ font-size:15px; font-weight:700; color:var(--tinta) }
+
+.olho{ font-size:14px; font-weight:600; color:var(--ouro-2); margin-bottom:16px }
+
+/* ─────────── botões ─────────── */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:10px;
+  min-height:52px; padding:13px 24px; border:0; border-radius:999px;
+  font-weight:700; font-size:15.5px; text-decoration:none; cursor:pointer;
+  transition:background-color .2s, color .2s, box-shadow .2s, transform .15s var(--ease);
+}
+.btn svg{ width:19px; height:19px; flex:none }
+.btn:active{ transform:scale(.97) }
+.btn-p{ min-height:42px; padding:9px 18px; font-size:14.5px }
+.btn-wa{ background:var(--wa); color:#fff }
+.btn-wa:hover{ background:var(--wa-2) }
+.btn-linha{ color:var(--tinta); box-shadow:inset 0 0 0 1.5px var(--cinza-2) }
+.btn-linha:hover{ box-shadow:inset 0 0 0 1.5px var(--ouro); color:var(--ouro-2) }
+
+/* ─────────── topo ─────────── */
+.topo{
+  position:sticky; top:0; z-index:60;
+  background:var(--branco); border-bottom:1px solid var(--linha);
+}
+.topo-in{ display:flex; align-items:center; gap:26px; min-height:70px }
+.marca img{ width:clamp(132px,18vw,160px) }
+.nav{ display:flex; align-items:center; gap:26px; margin-left:auto }
+.nav > a{ font-weight:600; font-size:15px; text-decoration:none; transition:color .2s; position:relative }
+.nav > a:not(.btn)::after{
+  content:''; position:absolute; left:0; right:100%; bottom:-5px; height:2px;
+  background:var(--ouro); transition:right .25s var(--ease);
+}
+.nav > a:not(.btn):hover{ color:var(--tinta) }
+.nav > a:not(.btn):hover::after{ right:0 }
+.nav-x{ display:none }
+.nav-wa{ margin-left:4px; min-height:42px; padding:9px 18px; font-size:14.5px }
+.topo-wa{ display:none }
+.hamb{ display:none; flex-direction:column; gap:5px; background:none; border:0; cursor:pointer; padding:10px; margin-left:auto }
+.hamb span{ width:24px; height:2px; background:var(--tinta); border-radius:2px; transition:.25s var(--ease) }
+.hamb[aria-expanded="true"] span:nth-child(1){ transform:translateY(7px) rotate(45deg) }
+.hamb[aria-expanded="true"] span:nth-child(2){ opacity:0 }
+.hamb[aria-expanded="true"] span:nth-child(3){ transform:translateY(-7px) rotate(-45deg) }
+.veu{ position:fixed; inset:0; z-index:55; background:rgba(35,30,23,.45) }
+
+/* ─────────── hero ─────────── */
+.hero{ padding-block:clamp(40px,6vw,72px) clamp(56px,7vw,96px); background:var(--branco) }
+.hero-grid{ display:grid; gap:40px; align-items:center }
+@media (min-width:960px){ .hero-grid{ grid-template-columns:1.04fr .96fr; gap:60px } }
+.hero-desc{ margin-top:20px; max-width:46ch; font-size:18px }
+.hero-acoes{ display:flex; flex-wrap:wrap; gap:12px; margin-top:30px }
+.hero-fatos{ display:flex; flex-wrap:wrap; gap:10px 24px; margin-top:30px; font-weight:600; font-size:15px; color:var(--tinta) }
+.hero-fatos li{ display:flex; align-items:center; gap:9px }
+.hero-fatos li::before{ content:''; width:8px; height:8px; border-radius:50%; background:var(--ouro) }
+
+.hero-arte{
+  display:grid; gap:14px; justify-items:center;
+  padding:30px 26px 22px; border-radius:30px; background:var(--areia);
+}
+.arcada{ width:100%; max-width:440px; height:auto; display:block }
+.arc-gengiva path{ fill:none; stroke:var(--areia-2); stroke-width:26; stroke-linecap:round }
+.arc-dentes rect{
+  fill:var(--branco); stroke:var(--ouro-claro); stroke-width:1.5;
+  transform-box:fill-box; transform-origin:center;
+  opacity:0; animation:dente .5s var(--ease) forwards;
+}
+.arc-dentes g:hover rect{ fill:var(--ouro-claro) }
+@keyframes dente{ from{ opacity:0; transform:translateY(10px) scale(.86) } to{ opacity:1; transform:none } }
+.arte-pe{ font-size:14px; font-weight:600; color:var(--tinta-2); text-align:center }
+
+/* ─────────── seções ─────────── */
+.sec{ padding-block:clamp(60px,8vw,104px) }
+.sec-claro{ background:var(--areia) }
+.sec-escuro{ background:var(--grafite); color:#BDB4A2 }
+.sec-escuro h2,.sec-escuro h3{ color:#F4EEE1 }
+.sec-topo{ margin-bottom:clamp(28px,4vw,44px) }
+.sec-desc{ margin-top:14px; max-width:56ch }
+
+/* ─────────── sanfona ─────────── */
+.sanfona{ display:grid; gap:10px; grid-template-columns:1fr 1fr; align-items:start }
+.sanfona-1{ grid-template-columns:1fr }
+.item{
+  background:var(--branco); border-radius:16px; overflow:hidden; height:max-content;
+  box-shadow:inset 0 0 0 1px var(--linha);
+  transition:box-shadow .2s, transform .2s var(--ease);
+}
+.sec-claro .item{ background:var(--branco) }
+.item:hover{ box-shadow:inset 0 0 0 1px var(--ouro-claro); transform:translateY(-2px) }
+.item[open]{ box-shadow:inset 0 0 0 1.5px var(--ouro-claro) }
+.item summary{
+  list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:14px;
+  padding:18px 20px; font-weight:700; font-size:16px; color:var(--tinta);
+}
+.item summary::-webkit-details-marker{ display:none }
+.item summary svg{ width:20px; height:20px; flex:none; color:var(--ouro); transition:transform .3s var(--ease) }
+.item[open] summary svg{ transform:rotate(180deg) }
+.item-txt{ padding:0 20px 18px; font-size:15.5px; animation:abre .32s var(--ease) }
+@keyframes abre{ from{ opacity:0; transform:translateY(-8px) } to{ opacity:1; transform:none } }
+.pendente{ color:var(--ouro-2); font-style:italic }
+
+/* ─────────── passos ─────────── */
+.passos{ display:grid; gap:24px; grid-template-columns:repeat(4,1fr) }
+.passos li{
+  padding:26px 22px; border-radius:20px; background:rgba(255,255,255,.04);
+  transition:background .25s, transform .25s var(--ease);
+}
+.passos li:hover{ background:rgba(231,200,126,.12); transform:translateY(-4px) }
+.passos .n{
+  display:grid; place-items:center; width:48px; height:48px; border-radius:50%;
+  background:rgba(231,200,126,.16); color:var(--ouro-claro);
+  font-family:'Young Serif', Georgia, serif; font-size:21px; margin-bottom:16px;
+  transition:background .25s, color .25s;
+}
+.passos li:hover .n{ background:var(--ouro-claro); color:var(--grafite) }
+.passos h3{ margin-bottom:8px }
+.passos p{ font-size:15px }
+
+/* ─────────── galeria ─────────── */
+.galeria{ display:grid; gap:16px; grid-template-columns:1.3fr 1fr 1fr }
+.vaga{
+  background:var(--cinza); border-radius:20px; min-height:250px;
+  display:flex; align-items:flex-end; padding:26px 22px;
+  transition:background .25s, transform .25s var(--ease);
+}
+.vaga:hover{ background:var(--cinza-2); transform:translateY(-3px) }
+.vaga-g{ min-height:320px; background:var(--cinza-2) }
+.vaga figcaption{ display:grid; gap:4px; font-size:14.5px; color:#625C53 }
+.vaga b{ font-size:16px; color:#3C3730 }
+
+/* ─────────── agendar ─────────── */
+.agenda{ display:grid; gap:22px; grid-template-columns:1.02fr .98fr; align-items:start }
+.mapa{ border-radius:20px; overflow:hidden; background:var(--areia); aspect-ratio:1/1 }
+.mapa iframe{ width:100%; height:100%; border:0; display:block }
+.agenda-lado{ display:grid; gap:18px }
+
+.contatos{ display:grid; gap:14px; background:var(--areia); border-radius:20px; padding:24px 22px }
+.contatos li{ display:flex; gap:12px; align-items:flex-start; font-size:15.5px }
+.contatos svg{ width:20px; height:20px; flex:none; color:var(--ouro); margin-top:2px }
+.contatos a{ color:var(--ouro-2); font-weight:600; text-decoration:none }
+.contatos a:hover{ text-decoration:underline }
+
+.form{ display:grid; gap:14px; background:var(--areia); border-radius:20px; padding:24px 22px }
+.form label{ display:grid; gap:7px }
+.form label span{ font-size:14.5px; font-weight:600; color:var(--tinta) }
+.form input,.form textarea{
+  width:100%; padding:13px 15px; border-radius:12px; font-size:16px;
+  background:var(--branco); border:1px solid var(--linha); color:var(--tinta);
+  transition:border-color .2s;
+}
+.form input:focus,.form textarea:focus{ border-color:var(--ouro); outline:none }
+.form textarea{ resize:vertical; min-height:84px }
+.chips{ display:flex; flex-wrap:wrap; gap:8px }
+.chips button{
+  border:0; cursor:pointer; border-radius:999px; padding:10px 18px;
+  font-size:14.5px; font-weight:600; background:var(--branco);
+  box-shadow:inset 0 0 0 1px var(--linha); color:var(--tinta-2);
+  transition:background .2s, color .2s, box-shadow .2s, transform .15s var(--ease);
+}
+.chips button:hover{ box-shadow:inset 0 0 0 1px var(--ouro-claro) }
+.chips button:active{ transform:scale(.96) }
+.chips button.on{ background:var(--ouro-2); color:#fff; box-shadow:none }
+
+/* ─────────── rodapé ─────────── */
+.rodape{ background:var(--grafite); color:#9D9483; padding-block:clamp(48px,6vw,76px) 26px; font-size:15px }
+.rodape-in{ display:grid; gap:30px; grid-template-columns:1.5fr 1fr 1fr }
+.chip{ display:inline-block; background:#fff; padding:12px 16px; border-radius:14px }
+.rodape-sub{ margin-top:16px; font-size:14px; color:#7E7667; max-width:30ch }
+.rodape h4{ color:var(--ouro-claro); margin-bottom:10px }
+.rodape a{ color:#9D9483; text-decoration:none }
+.rodape a:hover{ color:#F4EEE1; text-decoration:underline }
+.rodape-pe{
+  margin-top:40px; padding-top:20px; border-top:1px solid rgba(231,200,126,.16);
+  display:flex; flex-wrap:wrap; gap:8px 22px; justify-content:space-between; font-size:13.5px; color:#7E7667;
+}
+.cro{ color:var(--ouro-claro) }
+
+/* ─────────── botão flutuante ─────────── */
+.wa-flut{
+  position:fixed; z-index:50;
+  right:calc(16px + env(safe-area-inset-right,0px));
+  bottom:calc(16px + env(safe-area-inset-bottom,0px));
+  width:56px; height:56px; border-radius:50%; display:grid; place-items:center;
+  background:var(--wa); color:#fff;
+  box-shadow:0 12px 26px -10px rgba(31,168,85,.85);
+  transition:transform .2s var(--ease), background .2s;
+}
+.wa-flut svg{ width:28px; height:28px }
+.wa-flut:hover{ transform:scale(1.08); background:var(--wa-2) }
+.wa-flut:active{ transform:scale(.96) }
+
+/* ─────────── animações ─────────── */
+.ent{ opacity:0; transform:translateY(24px); animation:sobe .72s var(--ease) forwards; animation-delay:calc(var(--d) * 110ms) }
+@keyframes sobe{ to{ opacity:1; transform:none } }
+.rev{ opacity:0; transform:translateY(26px); transition:opacity .7s var(--ease), transform .7s var(--ease) }
+.rev.vis{ opacity:1; transform:none }
+@media (prefers-reduced-motion:reduce){
+  .ent,.rev{ opacity:1; transform:none; animation:none; transition:none }
+  .arc-dentes rect{ opacity:1; animation:none }
+  .item-txt{ animation:none }
+}
+
+/* ─────────── telas médias ─────────── */
+@media (max-width:1000px){
+  .passos{ grid-template-columns:1fr 1fr }
+  .galeria{ grid-template-columns:1fr 1fr }
+  .vaga-g{ grid-column:1/-1; min-height:220px }
+  .agenda{ grid-template-columns:1fr }
+  .mapa{ aspect-ratio:16/10 }
+  .rodape-in{ grid-template-columns:1fr 1fr }
+}
+
+/* ─────────── celular ─────────── */
+@media (max-width:900px){
+  main [id]{ scroll-margin-top:74px }
+  .nav{
+    position:fixed; top:0; right:0; bottom:0; z-index:70;
+    width:min(86vw,330px); background:var(--branco);
+    flex-direction:column; align-items:stretch; justify-content:center;
+    gap:2px; padding:30px 26px; margin:0;
+    transform:translateX(100%); visibility:hidden;
+    transition:transform .3s var(--ease), visibility .3s;
+  }
+  .nav.aberto{ transform:none; visibility:visible }
+  .nav > a:not(.btn){
+    font-family:'Young Serif', Georgia, serif; font-size:26px;
+    color:var(--tinta); padding:13px 0; font-weight:400;
+  }
+  .nav > a:not(.btn)::after{ display:none }
+  .nav-wa{ display:inline-flex; margin-top:22px; margin-left:0 }
+  .nav-x{
+    display:grid; place-items:center; position:absolute; top:18px; right:18px;
+    width:44px; height:44px; border:0; border-radius:50%; cursor:pointer;
+    background:var(--areia); color:var(--tinta);
+  }
+  .nav-x svg{ width:22px; height:22px }
+  .nav-x:hover{ background:var(--areia-2) }
+  .topo-wa{ display:inline-flex; margin-left:auto }
+  .hamb{ display:flex; margin-left:8px }
+}
+
+@media (max-width:620px){
+  body{ font-size:16px }
+  .sanfona{ grid-template-columns:1fr; gap:8px }
+  .item summary{ padding:16px 17px; font-size:15.5px }
+  .item-txt{ padding:0 17px 16px; font-size:15px }
+  .passos{ grid-template-columns:1fr; gap:10px }
+  .passos li{ display:grid; grid-template-columns:48px 1fr; gap:4px 16px; padding:18px 18px; align-items:center }
+  .passos .n{ grid-row:span 2; margin:0 }
+  .passos h3{ margin:0; align-self:end }
+  .passos p{ align-self:start }
+  .galeria{ grid-template-columns:1fr }
+  .vaga,.vaga-g{ min-height:150px }
+  .hero-acoes .btn{ flex:1 1 100% }
+  .hero-arte{ border-radius:24px; padding:22px 18px 16px }
+  .rodape-in{ grid-template-columns:1fr; gap:26px }
+  .rodape-pe{ flex-direction:column; gap:6px }
+  .topo-wa span{ display:none }
+  .topo-wa{ padding:9px 13px }
+}
+
+@media (max-width:380px){
+  .marca img{ width:120px }
+  .wa-flut{ width:52px; height:52px }
+}
