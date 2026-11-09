@@ -9,12 +9,35 @@ Site estático: HTML, CSS e JavaScript. Sem build, sem dependências.
 ## Arquivos
 
 ```
-index.html        página única
-css/estilo.css    estilos
-js/app.js         menu e formulário
-assets/           logo e imagem de compartilhamento
-.nojekyll         necessário no GitHub Pages
+index.html             gerado por tools/gera-pagina.cjs
+css/estilo.css         estilos
+js/app.js              menu, arcada interativa, formulário
+assets/                logo, imagens de arquivo, compartilhamento
+tools/pagina.html      modelo da página
+tools/gera-arcada.cjs  desenha a arcada em SVG
+tools/gera-pagina.cjs  injeta a arcada e escreve o index.html
+.nojekyll              necessário no GitHub Pages
 ```
+
+**Não edite o index.html à mão.** Mexa em `tools/pagina.html` e rode:
+
+```
+node tools/gera-pagina.cjs
+```
+
+## A ideia
+
+> Nesta página, a arcada dentária de onde vem o dente-A da logo
+> vira o modo de escolher o tratamento.
+
+O símbolo da clínica é um dente que forma a letra A. A página o apresenta
+grande, sozinho, no alto. E a seção de tratamentos deixou de ser uma lista
+de dez cartões: virou uma **arcada desenhada em SVG**, onde tocar uma
+região acende os dentes correspondentes e mostra só as especialidades
+daquela parte da boca. São sete regiões, cobrindo as dez especialidades.
+
+Sem JavaScript, as dez aparecem todas em lista. O conteúdo nunca depende
+do script.
 
 ## Identidade
 

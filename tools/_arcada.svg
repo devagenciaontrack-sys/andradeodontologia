@@ -1,0 +1,25 @@
+<svg class="arcada" viewBox="0 0 700 380" role="img"
+     aria-label="Arcada dentária: escolha uma região para ver os tratamentos">
+  <g class="gengiva" data-zona="gengiva">
+    <polyline points="20,80 20.71,96.61 22.82,113.15 26.34,129.55 31.24,145.74 37.51,161.65 45.12,177.2 54.03,192.34 64.21,207 75.62,221.11 88.19,234.63 101.89,247.47 116.65,259.61 132.42,270.97 149.11,281.51 166.66,291.19 185,299.97 204.04,307.81 223.71,314.67 243.92,320.52 264.59,325.35 285.62,329.12 306.93,331.83 328.42,333.46 350,334 371.58,333.46 393.07,331.83 414.38,329.12 435.41,325.35 456.08,320.52 476.29,314.67 495.96,307.81 515,299.97 533.34,291.19 550.89,281.51 567.58,270.97 583.35,259.61 598.11,247.47 611.81,234.63 624.38,221.11 635.79,207 645.97,192.34 654.88,177.2 662.49,161.65 668.76,145.74 673.66,129.55 677.18,113.15 679.29,96.61 680,80"/>
+    <polyline points="4,80 4.74,97.53 6.96,114.98 10.65,132.28 15.79,149.36 22.36,166.15 30.34,182.56 39.68,198.53 50.36,214 62.31,228.89 75.5,243.15 89.86,256.7 105.34,269.5 121.87,281.49 139.37,292.62 157.77,302.83 177,312.09 196.97,320.36 217.59,327.6 238.78,333.78 260.45,338.87 282.5,342.85 304.84,345.71 327.37,347.43 350,348 372.63,347.43 395.16,345.71 417.5,342.85 439.55,338.87 461.22,333.78 482.41,327.6 503.03,320.36 523,312.09 542.23,302.83 560.63,292.62 578.13,281.49 594.66,269.5 610.14,256.7 624.5,243.15 637.69,228.89 649.64,214 660.32,198.53 669.66,182.56 677.64,166.15 684.21,149.36 689.35,132.28 693.04,114.98 695.26,97.53 696,80"/>
+  </g>
+  <g class="dentes">
+    <g class="dente" data-zona="fundo" data-i="0" transform="translate(51.44 102.54) rotate(84.38)"><rect x="-17" y="-15" width="34" height="30" rx="11.4"/></g>
+    <g class="dente" data-zona="fundo" data-i="1" transform="translate(62.92 146.77) rotate(73.13)"><rect x="-16.5" y="-14.5" width="33" height="29" rx="11.02"/></g>
+    <g class="dente" data-zona="fundo" data-i="2" transform="translate(85.42 188.42) rotate(61.88)"><rect x="-15.5" y="-14" width="31" height="28" rx="10.64"/></g>
+    <g class="dente" data-zona="fundo" data-i="3" transform="translate(118.1 225.91) rotate(50.63)"><rect x="-13" y="-13" width="26" height="26" rx="9.88"/></g>
+    <g class="dente" data-zona="fundo" data-i="4" transform="translate(159.68 257.79) rotate(39.38)"><rect x="-12" y="-13" width="24" height="26" rx="9.12"/></g>
+    <g class="dente" data-zona="frente" data-i="5" transform="translate(208.58 282.84) rotate(28.13)"><rect x="-10.5" y="-14" width="21" height="28" rx="7.98"/></g>
+    <g class="dente" data-zona="frente" data-i="6" transform="translate(262.91 300.1) rotate(16.88)"><rect x="-8.5" y="-16" width="17" height="32" rx="6.46"/></g>
+    <g class="dente" data-zona="frente" data-i="7" transform="translate(320.59 308.89) rotate(5.63)"><rect x="-8" y="-16.5" width="16" height="33" rx="6.08"/></g>
+    <g class="dente" data-zona="frente" data-i="8" transform="translate(379.41 308.89) rotate(-5.62)"><rect x="-8" y="-16.5" width="16" height="33" rx="6.08"/></g>
+    <g class="dente" data-zona="frente" data-i="9" transform="translate(437.09 300.1) rotate(-16.87)"><rect x="-8.5" y="-16" width="17" height="32" rx="6.46"/></g>
+    <g class="dente" data-zona="frente" data-i="10" transform="translate(491.42 282.84) rotate(-28.13)"><rect x="-10.5" y="-14" width="21" height="28" rx="7.98"/></g>
+    <g class="dente" data-zona="fundo" data-i="11" transform="translate(540.32 257.79) rotate(-39.37)"><rect x="-12" y="-13" width="24" height="26" rx="9.12"/></g>
+    <g class="dente" data-zona="fundo" data-i="12" transform="translate(581.9 225.91) rotate(-50.63)"><rect x="-13" y="-13" width="26" height="26" rx="9.88"/></g>
+    <g class="dente" data-zona="fundo" data-i="13" transform="translate(614.58 188.42) rotate(-61.87)"><rect x="-15.5" y="-14" width="31" height="28" rx="10.64"/></g>
+    <g class="dente" data-zona="fundo" data-i="14" transform="translate(637.08 146.77) rotate(-73.12)"><rect x="-16.5" y="-14.5" width="33" height="29" rx="11.02"/></g>
+    <g class="dente" data-zona="fundo" data-i="15" transform="translate(648.56 102.54) rotate(-84.37)"><rect x="-17" y="-15" width="34" height="30" rx="11.4"/></g>
+  </g>
+</svg>

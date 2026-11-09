@@ -1,0 +1,1397 @@
+{
+ "url": "index.html",
+ "at": "2026-11-09T17:29:59.058Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.97,
+    0.96,
+    0.31,
+    0.9,
+    0.6,
+    0.83,
+    0.9,
+    0.94
+   ],
+   "motion": {
+    "elements": 22,
+    "css": 0,
+    "transitions": 22,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6461,
+     "screens": 7.2,
+     "words": 404,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "dentistry-under-medical-building-theater.jpg",
+      "teeth-dentistry-endodontology-teeth-dental-x-ray",
+      "warwick-james-dental-elevators.jpg",
+      "dental-explorer-11-12.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "ANDRADE",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 89.6,
+     "vw": 6.2,
+     "font": "Inter",
+     "weight": 500,
+     "tracking": 0.22,
+     "leading": 0.92,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.41,
+     "top": 459,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "ANDRADE ODONTOLOGIA",
+     "words": 2,
+     "lines": 2,
+     "size": 34,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "ANDRADE",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 89.6,
+      "vw": 6.2,
+      "font": "Inter",
+      "weight": 500,
+      "tracking": 0.22,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.41,
+      "top": 459,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Dez especialidades em uma sala no Parque Maria Fernandes.",
+      "words": 9,
+      "chars": 57,
+      "lines": 3,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Inter",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.32,
+      "top": 598,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Onde incomoda, o que resolve",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 54.4,
+      "vw": 3.8,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.45,
+      "top": 1075,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quatro passos até o seu sorriso",
+      "words": 6,
+      "chars": 31,
+      "lines": 2,
+      "size": 54.4,
+      "vw": 3.8,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2043,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tudo na mesma sala",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 128,
+      "vw": 8.9,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3643,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Um lugar para ficar à vontade",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 54.4,
+      "vw": 3.8,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.74,
+      "top": 4098,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Faça-nos uma visita",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 54.4,
+      "vw": 3.8,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 4913,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Andrade Odontologia",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 128,
+      "vw": 8.9,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6125,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 2,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      22,
+      34,
+      54,
+      90,
+      128
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.3
+     },
+     "measureChars": 67,
+     "max": {
+      "size": 128,
+      "vw": 8.9,
+      "font": "Playfair Display",
+      "text": "Tudo namesma sala"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.11,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#191611",
+       "top": 82,
+       "hsl": {
+        "h": 38,
+        "s": 0.19,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#eeede8",
+       "top": 917,
+       "hsl": {
+        "h": 50,
+        "s": 0.15,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#231f18",
+       "top": 2793,
+       "hsl": {
+        "h": 38,
+        "s": 0.19,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#c88c14",
+       "top": 3346,
+       "hsl": {
+        "h": 40,
+        "s": 0.82,
+        "l": 0.43
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5b5445",
+       "share": 0.32
+      },
+      {
+       "color": "#211d16",
+       "share": 0.27
+      },
+      {
+       "color": "#eeede8",
+       "share": 0.09
+      },
+      {
+       "color": "#a89e88",
+       "share": 0.08
+      },
+      {
+       "color": "#756d5c",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#dcd4c0",
+      "hsl": {
+       "h": 43,
+       "s": 0.29,
+       "l": 0.81
+      },
+      "fg": "#5b5445"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 39,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Agendar",
+      "Agendar pelo WhatsApp"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 82,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "playfair display"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.95,
+    0.86,
+    0.39,
+    0.91,
+    0.95,
+    0.64,
+    0.88,
+    0.84,
+    0.85
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 0,
+    "transitions": 21,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 8326,
+     "screens": 8.1,
+     "words": 396,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "dentistry-under-medical-building-theater.jpg",
+      "teeth-dentistry-endodontology-teeth-dental-x-ray",
+      "warwick-james-dental-elevators.jpg",
+      "dental-explorer-11-12.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "ANDRADE",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 66,
+     "vw": 8.6,
+     "font": "Inter",
+     "weight": 500,
+     "tracking": 0.163,
+     "leading": 0.92,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.53,
+     "top": 325,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "ANDRADE ODONTOLOGIA",
+     "words": 2,
+     "lines": 2,
+     "size": 34,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "ANDRADE",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 66,
+      "vw": 8.6,
+      "font": "Inter",
+      "weight": 500,
+      "tracking": 0.163,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.53,
+      "top": 325,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Onde incomoda, o que resolve",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 788,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quatro passos até o seu sorriso",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2653,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tudo na mesma sala",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5231,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Um lugar para ficar à vontade",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5510,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Faça-nos uma visita",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6352,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Andrade Odontologia",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7854,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 1,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      35,
+      66,
+      85
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.3
+     },
+     "measureChars": 50,
+     "max": {
+      "size": 84.5,
+      "vw": 11,
+      "font": "Playfair Display",
+      "text": "Tudo namesma sala"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.11,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#191611",
+       "top": 77,
+       "hsl": {
+        "h": 38,
+        "s": 0.19,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#eeede8",
+       "top": 704,
+       "hsl": {
+        "h": 50,
+        "s": 0.15,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#e2e0d8",
+       "top": 955,
+       "hsl": {
+        "h": 48,
+        "s": 0.15,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#231f18",
+       "top": 3238,
+       "hsl": {
+        "h": 38,
+        "s": 0.19,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#c88c14",
+       "top": 4750,
+       "hsl": {
+        "h": 40,
+        "s": 0.82,
+        "l": 0.43
+       }
+      },
+      {
+       "color": "#f2f1ee",
+       "top": 6411,
+       "hsl": {
+        "h": 45,
+        "s": 0.13,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5b5445",
+       "share": 0.3
+      },
+      {
+       "color": "#211d16",
+       "share": 0.28
+      },
+      {
+       "color": "#eeede8",
+       "share": 0.09
+      },
+      {
+       "color": "#a89e88",
+       "share": 0.08
+      },
+      {
+       "color": "#756d5c",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#dcd4c0",
+      "hsl": {
+       "h": 43,
+       "s": 0.29,
+       "l": 0.81
+      },
+      "fg": "#5b5445"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 39,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Agendar pelo WhatsApp"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 77,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "playfair display"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.97,
+    0.99,
+    0.67,
+    0.64,
+    0.97,
+    0.68,
+    0.87,
+    0.82,
+    0.92
+   ],
+   "motion": {
+    "elements": 21,
+    "css": 0,
+    "transitions": 21,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7366,
+     "screens": 8.7,
+     "words": 396,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "dentistry-under-medical-building-theater.jpg",
+      "teeth-dentistry-endodontology-teeth-dental-x-ray",
+      "warwick-james-dental-elevators.jpg",
+      "dental-explorer-11-12.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "ANDRADE",
+     "words": 1,
+     "chars": 7,
+     "lines": 1,
+     "size": 35.2,
+     "vw": 9,
+     "font": "Inter",
+     "weight": 500,
+     "tracking": 0.155,
+     "leading": 0.92,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.55,
+     "top": 300,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "ANDRADE ODONTOLOGIA",
+     "words": 2,
+     "lines": 2,
+     "size": 32,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "ANDRADE",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 9,
+      "font": "Inter",
+      "weight": 500,
+      "tracking": 0.155,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.55,
+      "top": 300,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Onde incomoda, o que resolve",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 771,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quatro passos até o seu sorriso",
+      "words": 6,
+      "chars": 31,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2352,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tudo na mesma sala",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 51.2,
+      "vw": 13.1,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4425,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Um lugar para ficar à vontade",
+      "words": 6,
+      "chars": 29,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4627,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Faça-nos uma visita",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5607,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Prefere que a gente chame você?",
+      "words": 6,
+      "chars": 31,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Playfair Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 6339,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Andrade Odontologia",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 42.9,
+      "vw": 11,
+      "font": "Playfair Display",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6903,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 1,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      18,
+      22,
+      32,
+      35,
+      43,
+      51
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.3
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 51.2,
+      "vw": 13.1,
+      "font": "Playfair Display",
+      "text": "Tudo namesma sala"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.11,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#191611",
+       "top": 73,
+       "hsl": {
+        "h": 38,
+        "s": 0.19,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#eeede8",
+       "top": 677,
+       "hsl": {
+        "h": 50,
+        "s": 0.15,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#231f18",
+       "top": 3046,
+       "hsl": {
+        "h": 38,
+        "s": 0.19,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#c88c14",
+       "top": 3998,
+       "hsl": {
+        "h": 40,
+        "s": 0.82,
+        "l": 0.43
+       }
+      },
+      {
+       "color": "#f2f1ee",
+       "top": 5907,
+       "hsl": {
+        "h": 45,
+        "s": 0.13,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5b5445",
+       "share": 0.3
+      },
+      {
+       "color": "#211d16",
+       "share": 0.28
+      },
+      {
+       "color": "#eeede8",
+       "share": 0.09
+      },
+      {
+       "color": "#a89e88",
+       "share": 0.08
+      },
+      {
+       "color": "#756d5c",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#dcd4c0",
+      "hsl": {
+       "h": 43,
+       "s": 0.29,
+       "l": 0.81
+      },
+      "fg": "#5b5445"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 37,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Agendar pelo WhatsApp"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 73,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "playfair display"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 768,
+   "message": "10 different font sizes (13, 15, 16, 17, 18, 19, 22, 35, 66, 85).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\desktop-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\tablet-page-01.jpg",
+    "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\mobile-page-01.jpg",
+    "C:\\Users\\paulo\\sites-andradeodontologia\\.taste-skill\\inspect\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}
