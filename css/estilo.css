@@ -17,6 +17,8 @@
   --papel:#FFFDFA;
   --creme:#FAF5EC;
   --creme-fundo:#F3EADA;
+  --vazio:#DEDCD7;
+  --vazio-forte:#D2CFC9;
   --grafite:#241F18;
 
   --zap:#0E7B42;
@@ -94,6 +96,7 @@ h3{font-family:Inter, sans-serif;font-size:1.05rem;font-weight:600;line-height:1
 
 .topo-acoes{display:flex;align-items:center;gap:10px;margin-left:auto}
 .navegacao + .topo-acoes{margin-left:0}
+@media (max-width:820px){ .navegacao + .topo-acoes{margin-left:auto} }
 
 /* ─────────── pílulas ─────────── */
 .pilula{
@@ -106,6 +109,9 @@ h3{font-family:Inter, sans-serif;font-size:1.05rem;font-weight:600;line-height:1
 .pilula .zap{width:18px;height:18px;fill:currentColor;flex:none}
 .pilula:active{transform:translateY(1px)}
 .pilula-cheia{background:var(--ouro-forte);color:#fff}
+/* o WhatsApp é sempre verde: é o que o olho reconhece */
+.pilula-zap{background:var(--zap);color:#fff}
+.pilula-zap:hover{background:#0A5F33}
 .pilula-cheia:hover{background:#6E4D0C}
 .pilula-vazia{background:transparent;color:var(--tinta);box-shadow:inset 0 0 0 1.5px #DDD2BC} /* taste-skill-ignore: borda da pilula vazia, nao sombra decorativa */
 .pilula-vazia:hover{box-shadow:inset 0 0 0 1.5px var(--ouro);color:var(--ouro-forte)} /* taste-skill-ignore: idem, estado hover */
@@ -165,7 +171,7 @@ h3{font-family:Inter, sans-serif;font-size:1.05rem;font-weight:600;line-height:1
 
 /* arco: a moldura que vai receber a foto */
 .arco{
-  background:var(--creme-fundo);
+  background:var(--vazio);
   border-radius:999px 999px 20px 20px;
   aspect-ratio:4/5;
   display:flex;flex-direction:column;align-items:center;justify-content:center;
@@ -173,7 +179,7 @@ h3{font-family:Inter, sans-serif;font-size:1.05rem;font-weight:600;line-height:1
 }
 .arco-icone{width:46px;height:46px;fill:var(--ouro);opacity:.75}
 .arco figcaption{
-  font-size:.92rem;color:var(--tinta-media);max-width:22ch;line-height:1.5;
+  font-size:.95rem;color:#5E594F;max-width:22ch;line-height:1.5;font-weight:500;
 }
 
 .etiqueta{
@@ -227,8 +233,8 @@ h3{font-family:Inter, sans-serif;font-size:1.05rem;font-weight:600;line-height:1
 }
 .passos li{display:flex;flex-direction:column;gap:14px;min-width:0}
 .passo-n{
-  width:42px;height:42px;border-radius:50%;flex:none;
-  display:grid;place-items:center;
+  width:52px;height:52px;border-radius:50%;flex:none;
+  display:grid;place-items:center;text-align:center;
   background:rgba(220,180,94,.16);color:var(--ouro-claro);
   font-family:"Cormorant Garamond", Georgia, serif;font-size:1.4rem;
 }
@@ -238,14 +244,14 @@ h3{font-family:Inter, sans-serif;font-size:1.05rem;font-weight:600;line-height:1
 /* ─────────── a clínica ─────────── */
 .galeria{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px}
 .vaga{
-  background:var(--creme);border-radius:var(--raio);
+  background:var(--vazio);border-radius:var(--raio);
   padding:28px 24px;min-height:250px;
   display:flex;flex-direction:column;justify-content:space-between;gap:20px;
 }
-.vaga-g{min-height:320px;background:var(--creme-fundo)}
+.vaga-g{min-height:320px;background:var(--vazio-forte)}
 .vaga svg{width:34px;height:34px;fill:var(--ouro);opacity:.8}
-.vaga figcaption{display:flex;flex-direction:column;gap:4px;font-size:.9rem;color:var(--tinta-media)}
-.vaga strong{font-size:1rem;color:var(--ouro-forte);font-weight:600}
+.vaga figcaption{display:flex;flex-direction:column;gap:4px;font-size:.9rem;color:#67625A}
+.vaga strong{font-size:1rem;color:#4A453C;font-weight:600}
 
 /* ─────────── contato ─────────── */
 .visita{display:grid;grid-template-columns:1.02fr .98fr;gap:22px;align-items:start}
@@ -387,4 +393,94 @@ h3{font-family:Inter, sans-serif;font-size:1.05rem;font-weight:600;line-height:1
 .entrou{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){
   .entra{opacity:1;transform:none;transition:none}
+}
+
+/* ─────────── tratamentos retráteis ─────────── */
+.sanfona{
+  display:grid;gap:10px;
+  grid-template-columns:1fr 1fr;
+  align-content:start;
+}
+.trat{
+  background:var(--creme);border-radius:14px;
+  overflow:hidden;min-width:0;height:max-content;
+  transition:background .2s ease;
+}
+.trat:hover{background:var(--creme-fundo)}
+.trat[open]{background:var(--creme-fundo)}
+.trat summary{
+  list-style:none;cursor:pointer;
+  display:flex;align-items:center;justify-content:space-between;gap:14px;
+  padding:17px 20px;
+  font-weight:600;font-size:1rem;color:var(--ouro-forte);
+}
+.trat summary::-webkit-details-marker{display:none}
+.trat summary::after{
+  content:"";flex:none;width:13px;height:13px;
+  background:
+    linear-gradient(var(--ouro) 0 0) center/13px 2px no-repeat,
+    linear-gradient(var(--ouro) 0 0) center/2px 13px no-repeat;
+  transition:transform .26s ease;
+}
+.trat[open] summary::after{transform:rotate(45deg)}
+.trat p{
+  padding:0 20px 18px;
+  font-size:.94rem;color:var(--tinta-media);
+}
+/* abre com altura animada, não aos saltos */
+.trat p{animation:abre .3s ease}
+@keyframes abre{ from{opacity:0;transform:translateY(-6px)} to{opacity:1;transform:none} }
+@media (prefers-reduced-motion:reduce){ .trat p{animation:none} }
+
+/* ─────────── botão de fechar o menu ─────────── */
+.fechar{
+  display:none;position:absolute;top:18px;right:18px;
+  width:44px;height:44px;border:0;border-radius:50%;cursor:pointer;
+  background:var(--creme);color:var(--tinta);
+  align-items:center;justify-content:center;
+}
+.fechar svg{width:22px;height:22px;fill:currentColor}
+.fechar:hover{background:var(--creme-fundo)}
+
+/* ─────────── passos uniformes ─────────── */
+.passo-n{
+  width:52px;height:52px;line-height:1;
+  font-size:1.5rem;font-weight:500;
+  background:rgba(220,180,94,.14);
+  color:var(--ouro-claro);
+  box-shadow:inset 0 0 0 1px rgba(220,180,94,.3); /* taste-skill-ignore: anel do número, não sombra */
+  transition:background .28s ease, color .28s ease;
+}
+.passos li.ativo .passo-n{background:var(--ouro-claro);color:var(--grafite)}
+.passos li{transition:opacity .3s ease}
+
+/* ─────────── animações de entrada ─────────── */
+.entra{opacity:0;transform:translateY(26px)}
+.entrou{opacity:1;transform:none}
+.entra{transition:opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1)}
+
+/* a capa anima ao carregar, sem esperar rolagem */
+.carrega{opacity:0;transform:translateY(22px);
+  animation:sobe .8s cubic-bezier(.22,.61,.36,1) forwards}
+@keyframes sobe{ to{opacity:1;transform:none} }
+.carrega-1{animation-delay:.05s}
+.carrega-2{animation-delay:.16s}
+.carrega-3{animation-delay:.27s}
+.carrega-4{animation-delay:.38s}
+.carrega-5{animation-delay:.49s}
+.carrega-6{animation-delay:.60s}
+
+@media (prefers-reduced-motion:reduce){
+  .entra{opacity:1;transform:none;transition:none}
+  .carrega{opacity:1;transform:none;animation:none}
+}
+
+@media (max-width:820px){
+  .fechar{display:flex}
+}
+
+@media (max-width:620px){
+  .sanfona{grid-template-columns:1fr;gap:8px}
+  .trat summary{padding:15px 17px;font-size:.97rem}
+  .trat p{padding:0 17px 16px;font-size:.92rem}
 }
